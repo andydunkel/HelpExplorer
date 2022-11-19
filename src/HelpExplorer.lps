@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="HelpExplorer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="14"/>
+        <UsageCount Value="27"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="76"/>
+        <CursorPos X="21" Y="85"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="settings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="33" Y="25"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="globalfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="27"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="DAPlatform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="64"/>
+        <CursorPos X="31" Y="81"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="shdocvw_1_1_tlb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SHDocVw_1_1_TLB"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="106" Y="11"/>
+        <UsageCount Value="25"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mshtml_4_0_tlb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1000"/>
+        <CursorPos X="52" Y="1017"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="settings.pas"/>
+        <Caret Line="50" Column="35" TopLine="22"/>
+      </Position1>
+      <Position2>
+        <Filename Value="settings.pas"/>
+        <Caret Line="54" Column="61" TopLine="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="settings.pas"/>
+        <Caret Line="25" Column="33" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="DAPlatform.pas"/>
+        <Caret Line="38" Column="45" TopLine="7"/>
+      </Position4>
+      <Position5>
+        <Filename Value="DAPlatform.pas"/>
+        <Caret Line="35" Column="21"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="51" Column="39" TopLine="43"/>
+      </Position6>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="s"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

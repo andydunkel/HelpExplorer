@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg4828"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="exit.svg"
+   inkscape:export-filename="C:\Users\dunkel\Desktop\exit.png"
+   inkscape:export-xdpi="725"
+   inkscape:export-ydpi="725">
+  <defs
+     id="defs4830" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="-100.71429"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1846"
+     inkscape:window-height="1058"
+     inkscape:window-x="66"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4833">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:31.31299973;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4145"
+       width="530"
+       height="374"
+       x="106"
+       y="122.36221"
+       inkscape:export-filename="C:\Users\dunkel\Desktop\exit.png"
+       inkscape:export-xdpi="725"
+       inkscape:export-ydpi="725" />
+    <path
+       style="fill:#808080;fill-opacity:1;stroke:#808080;stroke-width:80;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 107.42773 90.648438 L 107.42773 513.50586 L 641.71484 513.50586 L 641.71484 90.648438 L 107.42773 90.648438 z M 131.73438 147.81055 L 620.26562 147.81055 L 620.26562 504.91406 L 131.73438 504.91406 L 131.73438 147.81055 z "
+       id="rect5388" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#808080;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5407"
+       width="306"
+       height="232"
+       x="408"
+       y="22.362206" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:272.37490845px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="378.19635"
+       y="253.32133"
+       id="text5409"
+       sodipodi:linespacing="125%"
+       transform="scale(1.160097,0.86199689)"><tspan
+         sodipodi:role="line"
+         id="tspan5411"
+         x="378.19635"
+         y="253.32133"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Sans;-inkscape-font-specification:'Sans Bold';fill:#ffffff;fill-opacity:1">X</tspan></text>
+  </g>
+</svg>
