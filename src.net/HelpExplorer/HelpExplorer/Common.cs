@@ -1,4 +1,7 @@
-﻿namespace HelpExplorer
+﻿using System;
+using System.Net;
+
+namespace HelpExplorer
 {
     public class Common
     {

@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using System;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace HelpExplorer
@@ -9,14 +12,13 @@ namespace HelpExplorer
     public partial class MainWindow
     {
         private readonly Settings _settings = new Settings();
-        
+
         public MainWindow()
         {
             InitializeComponent();
             LoadIniFile();
-            
-            var obj = WebBrowser.Document as dynamic;
-                    }
+            //\\127.0.0.1\C$\
+        }
 
         /// <summary>
         /// Load settings from ini and apply
@@ -25,7 +27,11 @@ namespace HelpExplorer
         {
             _settings.LoadIni(Common.GetApplicationPath() + "\\settings.ini");
             Title = _settings.Title;
-            WebBrowser.Navigate(Common.GetApplicationPath() + "\\" + _settings.Homepage);
+
+            var url = Common.GetApplicationPath() + "\\" + _settings.Homepage);
+            WebBrowser.Navigate(url);
+            
+            
             ToolBar.Visibility = _settings.ShowToolBar ? Visibility.Visible : Visibility.Collapsed;
             Width = _settings.WindowWidth;
             Height = _settings.WindowHeight;
