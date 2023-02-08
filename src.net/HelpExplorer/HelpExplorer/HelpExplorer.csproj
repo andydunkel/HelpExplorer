@@ -51,6 +51,8 @@
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
+        <Compile Include="Common.cs" />
+        <Compile Include="IniFile.cs" />
         <Compile Include="Settings.cs" />
         <Page Include="MainWindow.xaml">
             <Generator>MSBuild:Compile</Generator>

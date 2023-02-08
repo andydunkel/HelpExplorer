@@ -9,7 +9,7 @@
         Title="MainWindow" Height="600" Width="800">
     <DockPanel>
         <ToolBarTray DockPanel.Dock="Top">
-            <ToolBar ToolBarTray.IsLocked="True" Loaded="ToolBar_Loaded">
+            <ToolBar x:Name="ToolBar" ToolBarTray.IsLocked="True" Loaded="ToolBar_Loaded">
                 <Button x:Name="ButtonBack" MinHeight="32" MinWidth="32" Click="ButtonBack_OnClick">
                     <Image Source="/res/nav_left.png" Width="24" Height="24" />
                 </Button>
