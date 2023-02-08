@@ -3,6 +3,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
+using CefSharp;
 
 namespace HelpExplorer
 {
@@ -28,10 +29,8 @@ namespace HelpExplorer
             _settings.LoadIni(Common.GetApplicationPath() + "\\settings.ini");
             Title = _settings.Title;
 
-            var url = Common.GetApplicationPath() + "\\" + _settings.Homepage);
-            WebBrowser.Navigate(url);
-            
-            
+            GoHome();
+
             ToolBar.Visibility = _settings.ShowToolBar ? Visibility.Visible : Visibility.Collapsed;
             Width = _settings.WindowWidth;
             Height = _settings.WindowHeight;
@@ -53,6 +52,12 @@ namespace HelpExplorer
             }
         }
 
+        private void GoHome()
+        {
+            var url = Common.GetApplicationPath() + "\\" + _settings.Homepage;
+            WebBrowser.Address = url;
+        }
+
         private void ToolBar_Loaded(object sender, RoutedEventArgs e)
         {
             var toolBar = sender as ToolBar;
@@ -69,17 +74,22 @@ namespace HelpExplorer
 
         private void ButtonBack_OnClick(object sender, RoutedEventArgs e)
         {
-            WebBrowser.GoBack();
+            if (WebBrowser.CanGoBack) WebBrowser.Back();
         }
 
         private void ButtonForward_OnClick(object sender, RoutedEventArgs e)
         {
-            WebBrowser.GoForward();
+            if (WebBrowser.CanGoForward) WebBrowser.Forward();
         }
 
         private void Exit_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void ButtonHome_OnClick(object sender, RoutedEventArgs e)
+        {
+            GoHome();
         }
     }
 }

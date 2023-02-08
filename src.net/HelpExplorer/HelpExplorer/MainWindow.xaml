@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:cef="clr-namespace:CefSharp;assembly=CefSharp.Core"
         xmlns:local="clr-namespace:HelpExplorer"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
@@ -17,7 +19,7 @@
                     <Image Source="/res/nav_right.png" Width="24" Height="24" />
                 </Button>
                 <Separator></Separator>
-                <Button x:Name="ButtonHome">
+                <Button x:Name="ButtonHome" Click="ButtonHome_OnClick">
                     <Image Source="/res/home.png" Width="24" Height="24" />
                 </Button>
                 <Separator></Separator>
@@ -26,6 +28,8 @@
                 </Button>
             </ToolBar>
         </ToolBarTray>
-        <WebBrowser x:Name="WebBrowser"></WebBrowser>
+        <wpf:ChromiumWebBrowser x:Name="WebBrowser"
+                                Address="">
+        </wpf:ChromiumWebBrowser>
     </DockPanel>
 </Window>
