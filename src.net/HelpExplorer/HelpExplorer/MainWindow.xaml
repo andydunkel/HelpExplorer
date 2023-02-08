@@ -1,0 +1,31 @@
+﻿<Window x:Class="HelpExplorer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelpExplorer"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="600" Width="800">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar ToolBarTray.IsLocked="True" Loaded="ToolBar_Loaded">
+                <Button x:Name="ButtonBack" MinHeight="32" MinWidth="32" Click="ButtonBack_OnClick">
+                    <Image Source="/res/nav_left.png" Width="24" Height="24" />
+                </Button>
+                <Button x:Name="ButtonForward" Click="ButtonForward_OnClick">
+                    <Image Source="/res/nav_right.png" Width="24" Height="24" />
+                </Button>
+                <Separator></Separator>
+                <Button x:Name="ButtonHome">
+                    <Image Source="/res/home.png" Width="24" Height="24" />
+                </Button>
+                <Separator></Separator>
+                <Button x:Name="Exit" Click="Exit_OnClick">
+                    <Image Source="/res/window_close.png" Width="24" Height="24" />
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <WebBrowser x:Name="WebBrowser"></WebBrowser>
+    </DockPanel>
+</Window>
