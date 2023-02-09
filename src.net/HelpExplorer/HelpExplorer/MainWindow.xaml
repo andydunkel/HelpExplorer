@@ -26,6 +26,7 @@
             </ToolBar>
         </ToolBarTray>
         <WebBrowser x:Name="WebBrowser" 
+                    MouseMove="WebBrowser_OnMouseMove"
                     Navigating="WebBrowser_OnNavigating"></WebBrowser>
     </DockPanel>
 </Window>

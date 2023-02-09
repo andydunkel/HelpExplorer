@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Navigation;
 
 namespace HelpExplorer
@@ -85,6 +86,12 @@ namespace HelpExplorer
         private void WebBrowser_OnNavigating(object sender, NavigatingCancelEventArgs e)
         {
             e.Cancel = false;
+        }
+        
+
+        private void WebBrowser_OnMouseMove(object sender, MouseEventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
