@@ -81,6 +81,7 @@
             this.buttonHome.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.buttonHome.Name = "buttonHome";
             this.buttonHome.Size = new System.Drawing.Size(28, 28);
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // toolStripSeparator2
             // 

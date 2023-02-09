@@ -1,0 +1,12 @@
+object FormMain: TFormMain
+  Left = 537
+  Height = 44
+  Top = 320
+  Width = 268
+  Caption = 'Help Browser'
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '2.2.0.4'
+end

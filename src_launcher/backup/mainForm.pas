@@ -35,7 +35,7 @@ procedure TFormMain.FormCreate(Sender: TObject);
 var
   launchPath,s: string;
 begin
-     launchPath:= TDAPlatform.GetApplicationFolder('content\HelpExplorerForms.exe');
+     launchPath:= TDAPlatform.GetApplicationFolder('content\helpexplorer.exe');
      RunCommand(launchPath,s);
      Application.Terminate;
 end;

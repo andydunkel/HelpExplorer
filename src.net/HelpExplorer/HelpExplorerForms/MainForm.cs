@@ -109,5 +109,10 @@ namespace HelpExplorerForms
         {
             System.Diagnostics.Process.Start(href);    
         }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            GoHome();
+        }
     }
 }

@@ -19,21 +19,27 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
-        <CursorPos X="78" Y="38"/>
+        <CursorPos X="29" Y="20"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
+        <Filename Value="settings.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="33" Y="25"/>
+        <UsageCount Value="27"/>
+      </Unit2>
+      <Unit3>
         <Filename Value="globalfunctions.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="28" Y="13"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
-      </Unit2>
-      <Unit3>
+      </Unit3>
+      <Unit4>
         <Filename Value="DAPlatform.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="2"/>
@@ -41,13 +47,6 @@
         <CursorPos X="48" Y="105"/>
         <UsageCount Value="28"/>
         <Loaded Value="True"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="settings.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="15"/>
-        <CursorPos X="33" Y="25"/>
-        <UsageCount Value="27"/>
       </Unit4>
       <Unit5>
         <Filename Value="shdocvw_1_1_tlb.pas"/>
