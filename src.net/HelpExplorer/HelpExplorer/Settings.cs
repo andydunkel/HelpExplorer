@@ -31,7 +31,7 @@
         public void LoadIni(string filename)
         {
             IniFile ini = new IniFile(filename);
-            var showToolBar = ini.ReadString("ShowToolBar");
+            var showToolBar = ini.ReadString("ShowToolbar");
             if (showToolBar == "1")
             {
                 ShowToolBar = true;
