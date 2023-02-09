@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="HelpExplorer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="14"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="29" Y="20"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="settings.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="33" Y="25"/>
+        <UsageCount Value="27"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="globalfunctions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="28" Y="13"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="DAPlatform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="78"/>
+        <CursorPos X="48" Y="105"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="shdocvw_1_1_tlb.pas"/>
+        <UnitName Value="SHDocVw_1_1_TLB"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="106" Y="11"/>
+        <UsageCount Value="25"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mshtml_4_0_tlb.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="23"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1000"/>
+        <CursorPos X="52" Y="1017"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="21" HistoryIndex="20">
+      <Position1>
+        <Filename Value="DAPlatform.pas"/>
+        <Caret Line="38" Column="45" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="DAPlatform.pas"/>
+        <Caret Line="35" Column="21"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="51" Column="39" TopLine="43"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="64" Column="6" TopLine="57"/>
+      </Position4>
+      <Position5>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="63" Column="6" TopLine="56"/>
+      </Position5>
+      <Position6>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="62" Column="6" TopLine="55"/>
+      </Position6>
+      <Position7>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="61" Column="6" TopLine="54"/>
+      </Position7>
+      <Position8>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="60" Column="6" TopLine="53"/>
+      </Position8>
+      <Position9>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="59" Column="6" TopLine="52"/>
+      </Position9>
+      <Position10>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="58" Column="6" TopLine="51"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="57" Column="6" TopLine="50"/>
+      </Position11>
+      <Position12>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="56" Column="6" TopLine="49"/>
+      </Position12>
+      <Position13>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="51" Column="30" TopLine="35"/>
+      </Position13>
+      <Position14>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="17" Column="5" TopLine="8"/>
+      </Position14>
+      <Position15>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="20" Column="20" TopLine="8"/>
+      </Position15>
+      <Position16>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="43" Column="56" TopLine="27"/>
+      </Position16>
+      <Position17>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="41" Column="19" TopLine="22"/>
+      </Position17>
+      <Position18>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="44" Column="29" TopLine="22"/>
+      </Position18>
+      <Position19>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="41" Column="19" TopLine="22"/>
+      </Position19>
+      <Position20>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="54" TopLine="19"/>
+      </Position20>
+      <Position21>
+        <Filename Value="mainForm.pas"/>
+        <Caret Line="41" Column="29" TopLine="19"/>
+      </Position21>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="s"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
