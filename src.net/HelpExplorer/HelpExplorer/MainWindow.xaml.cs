@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Navigation;
 
 namespace HelpExplorer
 {
@@ -14,9 +15,7 @@ namespace HelpExplorer
         {
             InitializeComponent();
             LoadIniFile();
-            
-            var obj = WebBrowser.Document as dynamic;
-                    }
+        }
 
         /// <summary>
         /// Load settings from ini and apply
@@ -25,7 +24,9 @@ namespace HelpExplorer
         {
             _settings.LoadIni(Common.GetApplicationPath() + "\\settings.ini");
             Title = _settings.Title;
+            
             WebBrowser.Navigate(Common.GetApplicationPath() + "\\" + _settings.Homepage);
+            
             ToolBar.Visibility = _settings.ShowToolBar ? Visibility.Visible : Visibility.Collapsed;
             Width = _settings.WindowWidth;
             Height = _settings.WindowHeight;
@@ -74,6 +75,16 @@ namespace HelpExplorer
         private void Exit_OnClick(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void ButtonHome_OnClick(object sender, RoutedEventArgs e)
+        {
+            WebBrowser.Navigate(Common.GetApplicationPath() + "\\" + _settings.Homepage);   
+        }
+
+        private void WebBrowser_OnNavigating(object sender, NavigatingCancelEventArgs e)
+        {
+            e.Cancel = false;
         }
     }
 }

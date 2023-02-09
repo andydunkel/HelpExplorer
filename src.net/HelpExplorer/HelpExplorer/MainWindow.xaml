@@ -16,7 +16,7 @@
                     <Image Source="/res/nav_right.png" Width="24" Height="24" />
                 </Button>
                 <Separator></Separator>
-                <Button x:Name="ButtonHome">
+                <Button x:Name="ButtonHome" Click="ButtonHome_OnClick">
                     <Image Source="/res/home.png" Width="24" Height="24" />
                 </Button>
                 <Separator></Separator>
@@ -25,6 +25,7 @@
                 </Button>
             </ToolBar>
         </ToolBarTray>
-        <WebBrowser x:Name="WebBrowser"></WebBrowser>
+        <WebBrowser x:Name="WebBrowser" 
+                    Navigating="WebBrowser_OnNavigating"></WebBrowser>
     </DockPanel>
 </Window>
